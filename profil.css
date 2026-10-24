@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    margin: 0;
+    padding: 30px;
+    color: rgb(45, 52, 70);
+    line-height: 1.6;
+}
+
+.kartu-profil {
+    width: 70%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #d5dcf5;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#nama {
+    color: #5839b8;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.informasi p {
+    text-align: left;
+    font-size: 15px;
+}
+
+h2, h3 {
+    color: #344b91;
+}
+
+.deskripsi {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+.label {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 14px;
+    border: 1px solid #5839b8;
+    border-radius: 20px;
+    background-color: #e9e2ff;
+    color: #5839b8;
+}
+
+.tombol {
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 10px 22px;
+    border: 2px solid #5839b8;
+    border-radius: 8px;
+    background-color: #5839b8;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tombol:hover {
+    background-color: #39227e;
+    border-color: #39227e;
+}
+
+.informasi h3,
+.keahlian h3 {
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .kartu-profil {
+        width: 100%;
+        margin: 10px auto;
+        padding: 18px;
+    }
+
+    #nama {
+        font-size: 26px;
+    }
+}
